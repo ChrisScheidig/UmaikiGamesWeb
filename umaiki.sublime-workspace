@@ -1,0 +1,682 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"back",
+				"background-repeat"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"bot",
+				"bottom"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"backg",
+				"background-image"
+			],
+			[
+				"cub",
+				"cubeMaterial"
+			],
+			[
+				"cube",
+				"cubeGeometry"
+			],
+			[
+				"flo",
+				"floorGeometry"
+			],
+			[
+				"floo",
+				"floor"
+			],
+			[
+				"fl",
+				"floorMaterial"
+			],
+			[
+				"floor",
+				"floorGeometry"
+			],
+			[
+				"di",
+				"directionalLight"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"ad",
+				"add"
+			],
+			[
+				"sc",
+				"scene"
+			],
+			[
+				"po",
+				"pointerOne"
+			],
+			[
+				"n",
+				"new"
+			],
+			[
+				"lef",
+				"left"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"loca",
+				"location"
+			],
+			[
+				"park",
+				"parkId"
+			],
+			[
+				"unse",
+				"unset"
+			],
+			[
+				"php",
+				"php"
+			],
+			[
+				"erg",
+				"ergebnisPark"
+			],
+			[
+				"sess",
+				"session_start"
+			],
+			[
+				"mysql_nu",
+				"mysql_num_rows"
+			],
+			[
+				"mysql_f",
+				"mysql_fetch_object"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"background-",
+				"background-origin"
+			],
+			[
+				"backgr",
+				"background-size"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"lo",
+				"logo"
+			],
+			[
+				"list-s",
+				"list-style"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"background-i",
+				"background-image"
+			],
+			[
+				"pading",
+				"padding-top"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"in",
+				"inline"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2033,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/styles.scss",
+			"settings":
+			{
+				"buffer_size": 364,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				":s",
+				":w - Save"
+			],
+			[
+				"browser",
+				"View In Browser"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML5"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"C",
+				"Set Syntax: C"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				":W",
+				":w - Save"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				":",
+				":w - Save"
+			],
+			[
+				":q",
+				"Snippet: Google AJAX Libraries: jQuery"
+			],
+			[
+				"live",
+				"LiveStyle: Install WebKit extension"
+			],
+			[
+				":e",
+				":$ - EOF"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"html5",
+				"Set Syntax: HTML5"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Sebastian/Dropbox/1up Store/drupal template/archive.html",
+		"/C/Users/Sebastian/Dropbox/1up Store/drupal template/css/main.css",
+		"/C/Users/Sebastian/Dropbox/1up Store/drupal template/eventdings.html",
+		"/C/Users/Sebastian/Dropbox/1up Store/drupal template/index.html",
+		"/C/Spiele/Minecraft/vanilla server/eula.txt",
+		"/C/Users/Sebastian/Dropbox/1up Store/drupal template/halloffame.html",
+		"/C/Users/Sebastian/Downloads/readme.txt",
+		"/C/Users/Sebastian/Workspace/umaiki_bootstrap-sass/config.rb",
+		"/C/Users/Sebastian/Workspace/umaiki_bootstrap-sass/sass/styles.scss",
+		"/C/Users/Sebastian/Workspace/umaiki_repo/config.rb",
+		"/C/Users/Sebastian/Workspace/umaiki_repo/sass/screen.scss",
+		"/C/Users/Sebastian/Workspace/umaiki_repo/sass/print.scss",
+		"/C/Users/Sebastian/Workspace/umaiki_repo/sass/ie.scss",
+		"/C/Users/Sebastian/Workspace/umaiki/index.html",
+		"/C/Users/Sebastian/Workspace/umaiki/css/style.css",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/index.php",
+		"/C/Users/Sebastian/AppData/Local/Temp/Windows_8_1.txt",
+		"/E/cmd/narrative/paper_questions.txt",
+		"/A/Animu/JAV/stream.html",
+		"/C/Users/Sebastian/horaire",
+		"/C/Users/Sebastian/Workspace/umaiki_bootstrap/index.html",
+		"/C/Users/Sebastian/Desktop/paper_questions.txt",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/image.php",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/imagetest.html",
+		"/C/Users/Sebastian/Downloads/revised_touhou_sort-master/revised_touhou_sort-master/README.md",
+		"/C/Users/Sebastian/Downloads/revised_touhou_sort-master/revised_touhou_sort-master/Touhou Character Sorting_files/fnc_data_v2.js",
+		"/C/Users/Sebastian/Downloads/revised_touhou_sort-master/revised_touhou_sort-master/Touhou Character Sorting_files/fnc_main_v3.js",
+		"/C/Users/Sebastian/Downloads/Microbikini Oily Dance Ultimate Collection [Omega P]/[HGD] High Grade Dance/stream.html",
+		"/A/Animu/JAV/ABP-251/Please Seed!.txt",
+		"/C/Users/Sebastian/Desktop/app.md",
+		"/E/Neues Textdokument.txt",
+		"/C/Users/Sebastian/Desktop/Neuer Ordner/Takoserver/eula.txt",
+		"/C/Program Files (x86)/Unity/Editor/Data/Documentation/html/en/Manual/UnityBasics.html",
+		"/C/Users/Sebastian/Downloads/winter_bmt_14_15/2014 12 BMT Winter 14 15 DVD/Stray/copyright-zeug.txt",
+		"/C/Users/Sebastian/Desktop/WindowsNoEditor/UE4CommandLine.txt",
+		"/C/Users/Sebastian/Desktop/Sealed Room Breed/密室ブリード2/readme.txt",
+		"/C/Users/Sebastian/Desktop/usb backup/Neues Textdokument.txt",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/.htaccess",
+		"/C/Users/Sebastian/Dropbox/1up Store/mockup/css/main.css",
+		"/C/Users/Sebastian/Dropbox/1up Store/mockup/index.html",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/main.css",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/banner.php",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/TeamSpeak3.php",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/randomm.php",
+		"/C/Steam/SteamApps/common/Skyrim/skse_readme.txt",
+		"/C/Users/Sebastian/Workspace/ts/css/main.css",
+		"/C/Users/Sebastian/Workspace/diebekannteadresse/css/main.css",
+		"/C/Users/Sebastian/AppData/Local/Pandoc/Pandoc User's Guide.html",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/main.php",
+		"/C/Users/Sebastian/Desktop/reflection.md",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/Html.php",
+		"/C/Users/Sebastian/AppData/Local/Temp/scp32869/home/klangspiel/public_html/town.html",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/a87ftaz8uf.php",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/parks.php",
+		"/C/Users/Sebastian/AppData/Roaming/Sublime Text 2/Packages/LaTeX Word Count/README.md",
+		"/C/Users/Sebastian/AppData/Roaming/Sublime Text 2/Packages/User/LaTeXWordCount.sublime-settings",
+		"/C/Users/Sebastian/AppData/Roaming/Sublime Text 2/Packages/LaTeX Word Count/LaTeXWordCount.sublime-settings",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/Text.php",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/Interface.php",
+		"/C/Users/Sebastian/AppData/Local/Temp/scp02458/home/klangspiel/public_html/town.html",
+		"/C/Users/Sebastian/AppData/Local/Temp/scp01867/home/klangspiel/public_html/town.html",
+		"/C/Users/Sebastian/Downloads/three.js-master/three.js-master/examples/obj/female02/readme.txt",
+		"/C/Users/Sebastian/Downloads/three.js-master/three.js-master/examples/models/json/pressure.json",
+		"/C/Users/Sebastian/Downloads/three.js-master/three.js-master/examples/models/platform/platform.json",
+		"/C/Users/Sebastian/Documents/KeePass/tilde.town.pub",
+		"/C/Users/Sebastian/AppData/Local/Temp/scp49498/home/klangspiel/public_html/stuff/svgExample.html",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/event.php",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/park.php",
+		"/F/Neuer Ordner/Neues Textdokument.txt",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/index.html",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/login.php",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/custom.css",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/bring.php",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/events.php",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/subscribeEvent.php",
+		"/C/Users/Sebastian/Workspace/playmobile/main.php",
+		"/C/Users/Sebastian/Workspace/playmobile/index.php",
+		"/C/Users/Sebastian/Workspace/playmobile/index.html",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/test.php",
+		"/C/Users/Sebastian/Downloads/jquery.mobile-1.4.5(1)/demos/pages/index.html",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/version.php",
+		"/E/Sicherheitskopien/all-inkl.txt",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/Event.php",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/style.css",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/editArticle.php",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/listArticles.php",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/loginForm.php",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/viewArticle.php",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/archive.php",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/homepage.php",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/footer.php",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/header.php",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/admin.php",
+		"/C/cygwin/home/Sebastian/luki/luki.c",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/config.php",
+		"/C/Users/Sebastian/Downloads/TheCake/TheCake/README.txt",
+		"/C/Steam/SteamApps/common/Ragnarok_Europe/patch_allow.txt",
+		"/C/Steam/SteamApps/common/Ragnarok_Europe/patch2.txt",
+		"/C/Steam/SteamApps/common/Ragnarok_Europe/steam_appid.txt",
+		"/C/Users/Sebastian/Dropbox/Absent_Moon/donjon; 4985 Tauri.html",
+		"/C/Users/Sebastian/Dropbox/Absent_Moon/Absent_Moon_AVscript_ja_v1.celtx",
+		"/C/Users/Sebastian/Dropbox/Absent_Moon/Character_Bios_ja_v1.md",
+		"/F/Neues Textdokument.txt",
+		"/C/Users/Sebastian/Documents/KeePass/DigitalOcean_pub",
+		"/C/Users/Sebastian/Documents/KeePass/dieBekannteAdresse.pub",
+		"/C/Users/Sebastian/Downloads/Zeichensatz/Readme.txt",
+		"/C/Users/Sebastian/Downloads/SternenkindSaga0991/SternenkindSaga/updates.txt",
+		"/C/Users/Sebastian/Workspace/diebekannteadresse/index.html",
+		"/C/Users/Sebastian/AppData/Roaming/Mozilla/Firefox/Profiles/dd4ymbmr.default/chrome/userChrome.css",
+		"/C/Users/Sebastian/Downloads/DSfix22-19-2-2/README.txt",
+		"/C/Users/Sebastian/Downloads/mario_kart_ds/readme.txt",
+		"/C/Users/Sebastian/Downloads/mario_kart_ds/Bangalor.txt",
+		"/C/Users/Sebastian/Dropbox/IndieBento/indiebento_mockup/css/indiebento.css",
+		"/C/Users/Sebastian/Workspace/1up Store/mockup/css/normalize.css",
+		"/C/Users/Sebastian/Workspace/1up Store/mockup/css/main.css",
+		"/C/Users/Sebastian/Workspace/1up Store/mockup/index.html",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/info.php",
+		"/C/Users/Sebastian/Downloads/TeamSpeak3 Webviewer v1.4.4/tswebviewer/readme.txt",
+		"/C/Users/Sebastian/Downloads/TeamSpeak3 Webviewer Lite v1.2/readme.txt",
+		"/C/Users/Sebastian/AppData/Local/Temp/fz3temp-1/web.config",
+		"/C/Users/Sebastian/Dropbox/MOOC-MMP/2D Video/Voiceover/Voiceover_Future3d_le.txt",
+		"/C/Users/Sebastian/Workspace/1up Store/mockup.sublime-workspace",
+		"/C/Users/Sebastian/Downloads/idle_master-master/idle_master-master/blacklist.txt",
+		"/E/!Media/Eigene Dokumente/chatlogs/chatlog frubba gonzo.txt",
+		"/E/!Media/Eigene Dokumente/chatlogs/asfdsfd.txt",
+		"/C/Users/Sebastian/Downloads/idle_master-master/idle_master-master/settings.txt",
+		"/C/Program Files (x86)/Unity/Editor/Data/Documentation/html/en/Manual/class-Material.html",
+		"/C/Program Files (x86)/Launchy/skins/author.txt"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"#",
+			" ",
+			"  ",
+			" ",
+			"#",
+			"merch",
+			"Lonely",
+			"tv",
+			"wrapper",
+			"button",
+			"viewer",
+			"body",
+			"background",
+			"from",
+			"nullpunkt",
+			"clearfix",
+			"park",
+			"purchase",
+			"content",
+			"publicationDate",
+			"Summary",
+			"summary",
+			"Article",
+			"article",
+			"Article",
+			"article",
+			"Article",
+			"article",
+			"Article",
+			"articles",
+			"#",
+			" ",
+			"#",
+			" ",
+			"#",
+			"corpus",
+			"td",
+			"table",
+			"channel",
+			"viewericons",
+			"open",
+			"die",
+			"ß",
+			"ü",
+			"ö",
+			"ä",
+			"div.wrap",
+			"# "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			":(",
+			":|",
+			"  ",
+			":(",
+			"fame",
+			"(0,0,0)",
+			"cf",
+			"event",
+			"bring",
+			"!",
+			"description",
+			"date",
+			"Host",
+			"host",
+			"Event",
+			"event",
+			"Event",
+			"event",
+			"Event",
+			"event",
+			"Event",
+			":A",
+			"[IMG]http://i.imgur.com/TVf3VqI.png[/IMG]",
+			":D",
+			"[IMG]http://i.imgur.com/TVf3VqI.png[/IMG]",
+			":D",
+			"&szlig;",
+			"&uuml;",
+			"&ouml;",
+			"&auml;",
+			"banner",
+			"## "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 2033,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1990,
+								1990
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 84.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sass/styles.scss",
+					"settings":
+					{
+						"buffer_size": 364,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								255,
+								255
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 189.0,
+	"status_bar_visible": true
+}

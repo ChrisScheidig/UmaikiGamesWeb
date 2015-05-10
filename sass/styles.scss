@@ -1,0 +1,20 @@
+// Import Bootstrap Compass integration
+@import "bootstrap-compass";
+
+// Import custom Bootstrap variables
+@import "bootstrap-variables";
+
+// Import Bootstrap for Sass
+@import "bootstrap";
+
+$header-image:	url("../img/umaiki_full.png");
+
+body {
+	padding-top: 50px;
+}
+
+.jumbotron {
+	background-image: $header-image;
+	background-position: center;
+	height: 500px;
+}
