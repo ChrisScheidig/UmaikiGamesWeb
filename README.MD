@@ -1,7 +1,8 @@
 # Umaiki Games website
-## Abh‰ngigkeiten
+## Abh√§ngigkeiten
 * `compass`
 * `bootstrap-sass`
+
 ### Installation
 * `gem update --system`
 * `gem install compass`
