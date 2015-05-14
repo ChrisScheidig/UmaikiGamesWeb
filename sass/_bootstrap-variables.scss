@@ -8,8 +8,8 @@
 //
 //## Gray and brand colors for use across Bootstrap.
 
-// $gray-base:              #000
-// $gray-darker:            lighten($gray-base, 13.5%) // #222
+$gray-base:              #000;
+$gray-darker:            lighten($gray-base, 13.5%); // #222
 // $gray-dark:              lighten($gray-base, 20%)   // #333
 // $gray:                   lighten($gray-base, 33.5%) // #555
 // $gray-light:             lighten($gray-base, 46.7%) // #777
@@ -47,12 +47,12 @@
 // $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace
 // $font-family-base:        $font-family-serif
 
-// $font-size-base:          14px
+$font-size-base:          16px;
 // $font-size-large:         ceil(($font-size-base * 1.25)) // ~18px
 // $font-size-small:         ceil(($font-size-base * 0.85)) // ~12px
 
 // $font-size-h1:            floor(($font-size-base * 2.6)) // ~36px
-// $font-size-h2:            floor(($font-size-base * 2.15)) // ~30px
+$font-size-h2:            floor(($font-size-base * 1.4)); // ~30px
 // $font-size-h3:            ceil(($font-size-base * 1.7)) // ~24px
 // $font-size-h4:            ceil(($font-size-base * 1.25)) // ~18px
 // $font-size-h5:            $font-size-base
@@ -373,7 +373,7 @@
 // Inverted navbar
 // Reset inverted navbar basics
 // $navbar-inverse-color:                      lighten($gray-light, 15%)
-// $navbar-inverse-bg:                         #222
+$navbar-inverse-bg: $gray-darker;
 // $navbar-inverse-border:                     darken($navbar-inverse-bg, 10%)
 
 // Inverted navbar links
