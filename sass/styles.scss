@@ -17,14 +17,28 @@ body {
 	background-image: $header-image;
 	background-position: center;
 	height: 500px;
+	margin-bottom: 0;
 }
 
-//.mod-game:nth-of-type
+.mod-zirkonia {
+	background-color: #333;
+	color: #fff;
+	text-shadow: 0 -1px 0 #000;
+}
+
+.mod-buntoki {
+	background-color: #8f563b;
+	color: #ffd29a;
+}
 
 .mod-info {
 	h1, h2 {
 		text-align: center;
 	}
+}
+
+.img-splash {
+	width: 100%;
 }
 
 .img-team {

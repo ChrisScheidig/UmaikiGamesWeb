@@ -8577,25 +8577,44 @@ body {
   background-image: url("../img/umaiki_full.png");
   background-position: center;
   height: 500px;
+  margin-bottom: 0;
 }
 
-/* line 25, ../sass/styles.scss */
+/* line 23, ../sass/styles.scss */
+.mod-zirkonia {
+  background-color: #333;
+  color: #fff;
+  text-shadow: 0 -1px 0 #000;
+}
+
+/* line 29, ../sass/styles.scss */
+.mod-buntoki {
+  background-color: #8f563b;
+  color: #ffd29a;
+}
+
+/* line 35, ../sass/styles.scss */
 .mod-info h1, .mod-info h2 {
   text-align: center;
 }
 
-/* line 30, ../sass/styles.scss */
+/* line 40, ../sass/styles.scss */
+.img-splash {
+  width: 100%;
+}
+
+/* line 44, ../sass/styles.scss */
 .img-team {
   width: 80%;
 }
 
-/* line 34, ../sass/styles.scss */
+/* line 48, ../sass/styles.scss */
 .footer-main {
   background-color: #222222;
   padding-top: 50px;
 }
 
-/* line 39, ../sass/styles.scss */
+/* line 53, ../sass/styles.scss */
 .footer-links {
   list-style: none;
   padding-left: 0;
