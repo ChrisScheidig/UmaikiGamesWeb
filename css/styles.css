@@ -8567,54 +8567,127 @@ button.close {
     display: none !important;
   }
 }
-/* line 12, ../sass/styles.scss */
-body {
-  padding-top: 50px;
+/* line 15, ../sass/styles.scss */
+.navbar-umaiki {
+  background-color: transparent;
+  color: #fff;
+}
+/* line 19, ../sass/styles.scss */
+.navbar-umaiki a:link, .navbar-umaiki a:visited, .navbar-umaiki a:active {
+  color: inherit;
+}
+/* line 23, ../sass/styles.scss */
+.navbar-umaiki a:hover {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+}
+/* line 27, ../sass/styles.scss */
+.navbar-umaiki a:focus {
+  background-color: rgba(255, 255, 255, 0.3) !important;
 }
 
-/* line 16, ../sass/styles.scss */
-.jumbotron {
+/* line 32, ../sass/styles.scss */
+.keyvisual {
   background-image: url("../img/umaiki_full.png");
   background-position: center;
   height: 500px;
   margin-bottom: 0;
+  padding-top: 0;
 }
 
-/* line 23, ../sass/styles.scss */
+/* line 40, ../sass/styles.scss */
+.btn-glass {
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 0;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6f8f9+0,e5ebee+50,d7dee3+51,f5f7f9+100&0.28+0,0.6+50,0.47+51,0.2+100 */
+  background: -moz-linear-gradient(top, rgba(246, 248, 249, 0.28) 0%, rgba(229, 235, 238, 0.6) 50%, rgba(215, 222, 227, 0.47) 51%, rgba(245, 247, 249, 0.2) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(246, 248, 249, 0.28)), color-stop(50%, rgba(229, 235, 238, 0.6)), color-stop(51%, rgba(215, 222, 227, 0.47)), color-stop(100%, rgba(245, 247, 249, 0.2)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(246, 248, 249, 0.28) 0%, rgba(229, 235, 238, 0.6) 50%, rgba(215, 222, 227, 0.47) 51%, rgba(245, 247, 249, 0.2) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(246, 248, 249, 0.28) 0%, rgba(229, 235, 238, 0.6) 50%, rgba(215, 222, 227, 0.47) 51%, rgba(245, 247, 249, 0.2) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(246, 248, 249, 0.28) 0%, rgba(229, 235, 238, 0.6) 50%, rgba(215, 222, 227, 0.47) 51%, rgba(245, 247, 249, 0.2) 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(246, 248, 249, 0.28) 0%, rgba(229, 235, 238, 0.6) 50%, rgba(215, 222, 227, 0.47) 51%, rgba(245, 247, 249, 0.2) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#47f6f8f9', endColorstr='#33f5f7f9',GradientType=0 );
+  /* IE6-9 */
+}
+
+/* line 54, ../sass/styles.scss */
+.mod-umaiki {
+  color: #fff;
+  background-color: #333;
+  padding: 25px 0;
+}
+
+/* line 60, ../sass/styles.scss */
+.mod-games {
+  background-color: #2E1904;
+}
+
+/* line 63, ../sass/styles.scss */
+.mod-game {
+  padding: 0;
+  height: 350px;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  text-shadow: 0 1px 0 #000;
+}
+/* line 71, ../sass/styles.scss */
+.mod-game p {
+  padding: 25px 10px;
+  opacity: 0.6;
+  position: absolute;
+  bottom: 0;
+  transition: all 0.2s;
+}
+/* line 79, ../sass/styles.scss */
+.mod-game:hover p {
+  opacity: 1;
+  bottom: 25px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* line 86, ../sass/styles.scss */
 .mod-zirkonia {
   background-color: #333;
   color: #fff;
-  text-shadow: 0 -1px 0 #000;
+  background-image: url("../img/splash_zirkonia.png");
 }
 
-/* line 29, ../sass/styles.scss */
+/* line 92, ../sass/styles.scss */
 .mod-buntoki {
   background-color: #8f563b;
   color: #ffd29a;
+  background-image: url("../img/splash_buntoki.png");
 }
 
-/* line 35, ../sass/styles.scss */
+/* line 99, ../sass/styles.scss */
 .mod-info h1, .mod-info h2 {
   text-align: center;
 }
 
-/* line 40, ../sass/styles.scss */
+/* line 104, ../sass/styles.scss */
 .img-splash {
   width: 100%;
 }
 
-/* line 44, ../sass/styles.scss */
+/* line 108, ../sass/styles.scss */
 .img-team {
   width: 80%;
 }
 
-/* line 48, ../sass/styles.scss */
+/* line 112, ../sass/styles.scss */
 .footer-main {
   background-color: #222222;
   padding-top: 50px;
 }
 
-/* line 53, ../sass/styles.scss */
+/* line 117, ../sass/styles.scss */
 .footer-links {
   list-style: none;
   padding-left: 0;

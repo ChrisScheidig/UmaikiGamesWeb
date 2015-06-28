@@ -10,25 +10,89 @@
 $header-image:	url("../img/umaiki_full.png");
 
 body {
-	padding-top: 50px;
 }
 
-.jumbotron {
+.navbar-umaiki {
+	background-color: transparent;
+	color: #fff;
+
+	a:link, a:visited, a:active {
+		color: inherit;
+	}
+
+	a:hover {
+		background-color: rgba(255,255,255,0.3) !important;
+	}
+
+	a:focus {
+		background-color: rgba(255,255,255,0.3) !important;
+	}
+}
+
+.keyvisual {
 	background-image: $header-image;
 	background-position: center;
 	height: 500px;
 	margin-bottom: 0;
+	padding-top: 0;
+}
+
+	.btn-glass {
+		color: #fff;
+		border: 1px solid rgba(255,255,255,0.5);
+		border-radius: 0;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6f8f9+0,e5ebee+50,d7dee3+51,f5f7f9+100&0.28+0,0.6+50,0.47+51,0.2+100 */
+		background: -moz-linear-gradient(top, rgba(246,248,249,0.28) 0%, rgba(229,235,238,0.6) 50%, rgba(215,222,227,0.47) 51%, rgba(245,247,249,0.2) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(246,248,249,0.28)), color-stop(50%,rgba(229,235,238,0.6)), color-stop(51%,rgba(215,222,227,0.47)), color-stop(100%,rgba(245,247,249,0.2))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, rgba(246,248,249,0.28) 0%,rgba(229,235,238,0.6) 50%,rgba(215,222,227,0.47) 51%,rgba(245,247,249,0.2) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, rgba(246,248,249,0.28) 0%,rgba(229,235,238,0.6) 50%,rgba(215,222,227,0.47) 51%,rgba(245,247,249,0.2) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, rgba(246,248,249,0.28) 0%,rgba(229,235,238,0.6) 50%,rgba(215,222,227,0.47) 51%,rgba(245,247,249,0.2) 100%); /* IE10+ */
+		background: linear-gradient(to bottom, rgba(246,248,249,0.28) 0%,rgba(229,235,238,0.6) 50%,rgba(215,222,227,0.47) 51%,rgba(245,247,249,0.2) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#47f6f8f9', endColorstr='#33f5f7f9',GradientType=0 ); /* IE6-9 */
+	}
+
+.mod-umaiki {
+	color: #fff;
+	background-color: #333;
+	padding: 25px 0;
+}
+
+.mod-games {
+	background-color: #2E1904;
+}
+.mod-game {
+	padding: 0;
+	height: 350px;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	text-shadow: 0 1px 0 #000;
+
+	p {
+		padding: 25px 10px;
+		opacity: 0.6;
+		position: absolute;
+		bottom: 0;
+		transition: all 0.2s;
+	}
+
+	&:hover p {
+		opacity: 1;
+		bottom: 25px;
+		background-color: rgba(0,0,0,0.3);
+	}
 }
 
 .mod-zirkonia {
 	background-color: #333;
 	color: #fff;
-	text-shadow: 0 -1px 0 #000;
+	background-image: url("../img/splash_zirkonia.png");
 }
 
 .mod-buntoki {
 	background-color: #8f563b;
 	color: #ffd29a;
+	background-image: url("../img/splash_buntoki.png");
 }
 
 .mod-info {
