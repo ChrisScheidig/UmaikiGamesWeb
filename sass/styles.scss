@@ -29,10 +29,6 @@ body {
 	}
 }
 
-.dropdown-menu {
-	background-color: transparent;
-}
-
 .keyvisual {
 	background-image: $header-image;
 	background-position: center;
@@ -56,13 +52,23 @@ body {
 	}
 
 .mod-umaiki {
+	line-height: 40px;
 	color: #fff;
-	background-color: #333;
-	padding: 25px 0;
+	background-image: url('../img/seperator.png');
+	background-position: center;
+	background-repeat: repeat-x;
+	height: 118px;
+	font-family: $font-family-serif;
+	font-size: 2.3em;
+	padding: 15px 0;
+	text-align: center;
+	position: relative;
+	z-index: 100;
+	text-align: justify;
 }
 
 .mod-games {
-	background-color: #2E1904;
+	background-image: url('http://www.owlboygame.com/img/videoBack.png');
 }
 .mod-game {
 	padding: 0;
@@ -122,3 +128,7 @@ body {
 	list-style: none;
 	padding-left: 0;
 }
+
+/* TYPO */
+
+@import url(http://fonts.googleapis.com/css?family=Alegreya:700|Roboto:400,700|Roboto+Condensed);
