@@ -92,8 +92,10 @@ body {
 		margin: 0;
 	}
 }
+
 .mod-game {
 	padding: 0;
+	padding-top: 10px;
 	height: 350px;
 	background-size: cover;
 	background-position: center center;
@@ -117,9 +119,15 @@ body {
 		p {
 			opacity: 1;
 			bottom: 25px;
-			background-color: rgba(0,0,0,0.3);
 		}
 	}
+}
+
+.game-logo {
+	display: block;
+	margin: 0 auto;
+	width: 70%;
+	margin-top: 20px;
 }
 
 .mod-zirkonia {

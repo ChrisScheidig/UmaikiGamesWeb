@@ -8661,9 +8661,10 @@ button.close {
   margin: 0;
 }
 
-/* line 95, ../sass/styles.scss */
+/* line 96, ../sass/styles.scss */
 .mod-game {
   padding: 0;
+  padding-top: 10px;
   height: 350px;
   background-size: cover;
   background-position: center center;
@@ -8673,7 +8674,7 @@ button.close {
   background-size: 120%;
   transition: all 0.2s;
 }
-/* line 106, ../sass/styles.scss */
+/* line 108, ../sass/styles.scss */
 .mod-game p {
   padding: 25px 10px;
   opacity: 0.6;
@@ -8681,18 +8682,25 @@ button.close {
   bottom: 0;
   transition: all 0.2s;
 }
-/* line 114, ../sass/styles.scss */
+/* line 116, ../sass/styles.scss */
 .mod-game:hover {
   background-size: 100%;
 }
-/* line 117, ../sass/styles.scss */
+/* line 119, ../sass/styles.scss */
 .mod-game:hover p {
   opacity: 1;
   bottom: 25px;
-  background-color: rgba(0, 0, 0, 0.3);
 }
 
-/* line 125, ../sass/styles.scss */
+/* line 126, ../sass/styles.scss */
+.game-logo {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  margin-top: 20px;
+}
+
+/* line 133, ../sass/styles.scss */
 .mod-zirkonia {
   background-color: #333;
   color: #fff;
@@ -8700,7 +8708,7 @@ button.close {
   box-shadow: -5px 0 10px rgba(0, 0, 0, 0.8);
 }
 
-/* line 132, ../sass/styles.scss */
+/* line 140, ../sass/styles.scss */
 .mod-buntoki {
   background-color: #8f563b;
   color: #ffd29a;
@@ -8708,28 +8716,28 @@ button.close {
   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.8);
 }
 
-/* line 140, ../sass/styles.scss */
+/* line 148, ../sass/styles.scss */
 .mod-info h1, .mod-info h2 {
   text-align: center;
 }
 
-/* line 145, ../sass/styles.scss */
+/* line 153, ../sass/styles.scss */
 .img-splash {
   width: 100%;
 }
 
-/* line 149, ../sass/styles.scss */
+/* line 157, ../sass/styles.scss */
 .img-team {
   width: 80%;
 }
 
-/* line 153, ../sass/styles.scss */
+/* line 161, ../sass/styles.scss */
 .footer-main {
   background-color: #222222;
   padding-top: 50px;
 }
 
-/* line 158, ../sass/styles.scss */
+/* line 166, ../sass/styles.scss */
 .footer-links {
   list-style: none;
   padding-left: 0;
