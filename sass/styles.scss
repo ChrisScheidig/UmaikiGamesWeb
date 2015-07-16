@@ -35,6 +35,18 @@ body {
 	height: 500px;
 	margin-bottom: 0;
 	padding-top: 0;
+	color: white;
+	position: relative;
+
+	&>.container {
+		font-family: $font-family-serif;
+		font-size: 1.5em;
+
+		span {
+			position: absolute;
+			bottom: 30px;
+		}
+	}
 }
 
 	.btn-glass {
@@ -60,15 +72,25 @@ body {
 	height: 118px;
 	font-family: $font-family-serif;
 	font-size: 2.3em;
-	padding: 15px 0;
-	text-align: center;
+	padding: 57px 0;
+	text-align: justify;
 	position: relative;
 	z-index: 100;
 	text-align: justify;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.7);
+
+	.container {
+		transform: translateY(-50%);
+	}
 }
 
 .mod-games {
-	background-image: url('http://www.owlboygame.com/img/videoBack.png');
+	background-image: url('../img/tile.jpg');
+	overflow: hidden;
+
+	.row {
+		margin: 0;
+	}
 }
 .mod-game {
 	padding: 0;
@@ -77,6 +99,9 @@ body {
 	background-position: center center;
 	position: relative;
 	text-shadow: 0 1px 0 #000;
+	background-position: center center;
+	background-size: 120%;
+	transition: all 0.2s;
 
 	p {
 		padding: 25px 10px;
@@ -86,10 +111,14 @@ body {
 		transition: all 0.2s;
 	}
 
-	&:hover p {
-		opacity: 1;
-		bottom: 25px;
-		background-color: rgba(0,0,0,0.3);
+	&:hover {
+		background-size: 100%;
+
+		p {
+			opacity: 1;
+			bottom: 25px;
+			background-color: rgba(0,0,0,0.3);
+		}
 	}
 }
 
@@ -97,12 +126,14 @@ body {
 	background-color: #333;
 	color: #fff;
 	background-image: url("../img/splash_zirkonia.png");
+	box-shadow: -5px 0 10px rgba(0,0,0,0.8);
 }
 
 .mod-buntoki {
 	background-color: #8f563b;
 	color: #ffd29a;
 	background-image: url("../img/splash_buntoki.png");
+	box-shadow: 5px 0 10px rgba(0,0,0,0.8);
 }
 
 .mod-info {

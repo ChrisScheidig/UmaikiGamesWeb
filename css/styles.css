@@ -8593,9 +8593,21 @@ button.close {
   height: 500px;
   margin-bottom: 0;
   padding-top: 0;
+  color: white;
+  position: relative;
+}
+/* line 41, ../sass/styles.scss */
+.keyvisual > .container {
+  font-family: Alegreya, serif;
+  font-size: 1.5em;
+}
+/* line 45, ../sass/styles.scss */
+.keyvisual > .container span {
+  position: absolute;
+  bottom: 30px;
 }
 
-/* line 40, ../sass/styles.scss */
+/* line 52, ../sass/styles.scss */
 .btn-glass {
   color: #fff;
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -8617,7 +8629,7 @@ button.close {
   /* IE6-9 */
 }
 
-/* line 54, ../sass/styles.scss */
+/* line 66, ../sass/styles.scss */
 .mod-umaiki {
   line-height: 40px;
   color: #fff;
@@ -8627,24 +8639,29 @@ button.close {
   height: 118px;
   font-family: Alegreya, serif;
   font-size: 2.3em;
-  padding: 15px 0;
-  text-align: center;
+  padding: 57px 0;
+  text-align: justify;
   position: relative;
   z-index: 100;
   text-align: justify;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
 }
-/* line 69, ../sass/styles.scss */
-.mod-umaiki .container * {
-  margin-top: 50%;
-  transform: translate-y(50%);
+/* line 82, ../sass/styles.scss */
+.mod-umaiki .container {
+  transform: translateY(-50%);
 }
 
-/* line 75, ../sass/styles.scss */
+/* line 87, ../sass/styles.scss */
 .mod-games {
-  background-image: url("http://www.owlboygame.com/img/videoBack.png");
+  background-image: url("../img/tile.jpg");
+  overflow: hidden;
+}
+/* line 91, ../sass/styles.scss */
+.mod-games .row {
+  margin: 0;
 }
 
-/* line 78, ../sass/styles.scss */
+/* line 95, ../sass/styles.scss */
 .mod-game {
   padding: 0;
   height: 350px;
@@ -8652,8 +8669,11 @@ button.close {
   background-position: center center;
   position: relative;
   text-shadow: 0 1px 0 #000;
+  background-position: center center;
+  background-size: 120%;
+  transition: all 0.2s;
 }
-/* line 86, ../sass/styles.scss */
+/* line 106, ../sass/styles.scss */
 .mod-game p {
   padding: 25px 10px;
   opacity: 0.6;
@@ -8661,49 +8681,55 @@ button.close {
   bottom: 0;
   transition: all 0.2s;
 }
-/* line 94, ../sass/styles.scss */
+/* line 114, ../sass/styles.scss */
+.mod-game:hover {
+  background-size: 100%;
+}
+/* line 117, ../sass/styles.scss */
 .mod-game:hover p {
   opacity: 1;
   bottom: 25px;
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-/* line 101, ../sass/styles.scss */
+/* line 125, ../sass/styles.scss */
 .mod-zirkonia {
   background-color: #333;
   color: #fff;
   background-image: url("../img/splash_zirkonia.png");
+  box-shadow: -5px 0 10px rgba(0, 0, 0, 0.8);
 }
 
-/* line 107, ../sass/styles.scss */
+/* line 132, ../sass/styles.scss */
 .mod-buntoki {
   background-color: #8f563b;
   color: #ffd29a;
   background-image: url("../img/splash_buntoki.png");
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.8);
 }
 
-/* line 114, ../sass/styles.scss */
+/* line 140, ../sass/styles.scss */
 .mod-info h1, .mod-info h2 {
   text-align: center;
 }
 
-/* line 119, ../sass/styles.scss */
+/* line 145, ../sass/styles.scss */
 .img-splash {
   width: 100%;
 }
 
-/* line 123, ../sass/styles.scss */
+/* line 149, ../sass/styles.scss */
 .img-team {
   width: 80%;
 }
 
-/* line 127, ../sass/styles.scss */
+/* line 153, ../sass/styles.scss */
 .footer-main {
   background-color: #222222;
   padding-top: 50px;
 }
 
-/* line 132, ../sass/styles.scss */
+/* line 158, ../sass/styles.scss */
 .footer-links {
   list-style: none;
   padding-left: 0;
