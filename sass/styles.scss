@@ -27,6 +27,10 @@ body {
 	a:focus {
 		background-color: rgba(255,255,255,0.3) !important;
 	}
+
+	li {
+		margin-left: 60px;
+	}
 }
 
 .keyvisual {
@@ -79,6 +83,10 @@ body {
 	text-align: justify;
 	box-shadow: 0 5px 15px rgba(0,0,0,0.7);
 
+	a:link, a:visited {
+		color: orange;
+	}
+
 	.container {
 		transform: translateY(-50%);
 	}
@@ -104,6 +112,7 @@ body {
 	background-position: center center;
 	background-size: 120%;
 	transition: all 0.2s;
+	color: #fff;
 
 	p {
 		padding: 25px 10px;
@@ -111,6 +120,7 @@ body {
 		position: absolute;
 		bottom: 0;
 		transition: all 0.2s;
+		background-color: rgba(0,0,0,0.0);
 	}
 
 	&:hover {
@@ -118,7 +128,8 @@ body {
 
 		p {
 			opacity: 1;
-			bottom: 25px;
+			bottom: 15px;
+			background-color: rgba(0,0,0,0.5);
 		}
 	}
 }
@@ -131,15 +142,12 @@ body {
 }
 
 .mod-zirkonia {
-	background-color: #333;
-	color: #fff;
 	background-image: url("../img/splash_zirkonia.png");
 	box-shadow: -5px 0 10px rgba(0,0,0,0.8);
 }
 
 .mod-buntoki {
 	background-color: #8f563b;
-	color: #ffd29a;
 	background-image: url("../img/splash_buntoki.png");
 	box-shadow: 5px 0 10px rgba(0,0,0,0.8);
 }
@@ -158,9 +166,20 @@ body {
 	width: 80%;
 }
 
+.seperator {
+	background-image: url("../img/seperator_small.jpg");
+	background-repeat: repeat-x;
+	height: 14px;
+}
+
 .footer-main {
 	background-color: $gray-darker;
-	padding-top: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+	img {
+		max-width: 100%;
+	}
 }
 
 .footer-links {
