@@ -16,8 +16,69 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+	
 </head>
-<body>
+<body onload="initData();">
+
+
+	<script>
+	function initData() {
+	
+	
+	$.ajax({
+	   url: "http://api.tumblr.com/v2/blog/umaikigames.tumblr.com/posts/text?limit=3",
+	   dataType: 'jsonp',
+	   data: {
+		   api_key: "WPa59mMNXVw2tmyUTEN8ps1u3AQPuN0PttEjXr474iocfRk1Gx",
+		   dataType: "JSONP",
+	   },
+	success: function(results){
+		console.log(results);
+		var i = 0;
+
+		while (i < 3 && i < results.response.posts.length ) {
+			var type = results.response.posts[i].type;
+			//var getImages = results.response.posts[i].photos[i].alt_sizes[0].url;
+			//$("#tumblrLinks").append("<div class='postbody'>" + "<img src=" + getImages + " /></div>");					
+			$("#tumblrLinks").append("<li><a href='"+results.response.posts[i].post_url+"' >" + results.response.posts[i].title + "</a></li>");
+
+			i++;
+		}   
+	}
+	});	
+	
+	$.ajax({
+	   url: "http://api.tumblr.com/v2/blog/umaikigames.tumblr.com/posts/photo?limit=3",
+	   dataType: 'jsonp',
+	   data: {
+		   api_key: "WPa59mMNXVw2tmyUTEN8ps1u3AQPuN0PttEjXr474iocfRk1Gx",
+		   dataType: "JSONP",
+	   },
+	success: function(results){
+		console.log(results);
+		var i = 0;
+
+		while (i < 3 && i < results.response.posts.length ) {
+			var type = results.response.posts[i].type;
+			
+			
+			var getUrl = results.response.posts[i].post_url;
+			var getImages = results.response.posts[i].photos[0].alt_sizes[2].url;
+			var getImageText = results.response.posts[i].caption;
+			
+			console.log(getImages);
+			
+			$("#tumblrPics").append("<a href='"+getUrl+"'><div class='col-md-4'><img width='800px' height='150px' src='"+getImages+"' alt='dings'><a href='"+getUrl+"'>"+getImageText+"</a></div></a>");
+
+			i++;
+		}   
+	}
+	});		
+	
+
+	}
+	</script>
+
 	<div class="jumbotron keyvisual">
 		<nav class="navbar navbar-umaiki">
 			<div class="container">
@@ -98,20 +159,11 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3">
-					<ul class="footer-links">
-						<li><a href="#">Whatever</a></li>
-						<li><a href="#">Whatever</a></li>
-						<li><a href="#">Whatever</a></li>
-						<li><a href="#">Whatever</a></li>
-						<li><a href="#">Whatever</a></li>
-						<li><a href="#">Whatever</a></li>
+					<ul class="footer-links" id="tumblrLinks">
 					</ul>
 				</div>
 				<div class="col-md-9">
-					<div class="row">
-						<div class="col-md-4"><img src="http://placehold.it/800x400" alt="dings"><a href="#">Bla</a></div>
-						<div class="col-md-4"><img src="http://placehold.it/800x400" alt="dings"><a href="#">Bla</a></div>
-						<div class="col-md-4"><img src="http://placehold.it/800x400" alt="dings"><a href="#">Bla</a></div>
+					<div class="row" id="tumblrPics">
 					</div>
 				</div>
 			</div>
