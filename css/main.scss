@@ -105,7 +105,8 @@ body > header {
 	ul {
 		width: 100%;
 		display: flex;
-		justify-content: space-around;
+		justify-content: center;
+		flex-wrap: wrap;
 
 		padding: 0;
 		margin: 0;
@@ -118,6 +119,9 @@ body > header {
 			border: 0.5rem solid $white;
 			box-shadow: $soft-shadow;
 			background-position: center;
+			background-size: cover;
+
+			margin: 0 2rem 2rem 2rem;
 
 			a {
 				display: block;
@@ -129,12 +133,23 @@ body > header {
 			}
 		}
 
+		li.small {
+			height: 7.5rem;
+			width: 15rem;
+
+			order: 2;
+		}
+
 		li.zirkonia {
 			background-image: url(../img/navlink_zirkonia.png);
 		}
 
 		li.buntoki {
 			background-image: url(../img/navlink_buntoki.png);
+		}
+
+		li.dungeon-sounds {
+			background-image: url(../img/navlink_dungeon_sounds.png);
 		}
 	}
 }
