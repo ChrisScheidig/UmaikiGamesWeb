@@ -16,6 +16,20 @@ gulp.task('css', function () {
         .pipe(gulp.dest('./build/css'));
 });
 
+
+gulp.task('js', function () {
+    var babel      = require('gulp-babel');
+    var sourcemaps   = require('gulp-sourcemaps');
+
+    return gulp.src('./js/**/*.js')
+        .pipe(sourcemaps.init())
+        .pipe(babel({
+            presets: ['es2015']
+        }))
+        .pipe(sourcemaps.write('.'))
+        .pipe(gulp.dest('./build/js'));
+});
+
 gulp.task('html', function() {
     return gulp.src('./*.html')
         .pipe(gulp.dest('./build'));
@@ -50,5 +64,13 @@ gulp.task('watch-css', function() {
     }));
 })
 
-gulp.task('default', ['html', 'css', 'img'])
-gulp.task('watch', ['watch-html', 'watch-css', 'watch-img'])
+gulp.task('watch-js', function() {
+    var watch = require('gulp-watch');
+    var batch = require('gulp-batch');
+    watch('./js/**/*.js', batch(function (events, done) {
+        gulp.start('js', done);
+    }));
+})
+
+gulp.task('default', ['html', 'css', 'js', 'img'])
+gulp.task('watch', ['watch-html', 'watch-css', 'watch-js', 'watch-img'])
