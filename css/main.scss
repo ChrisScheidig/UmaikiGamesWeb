@@ -20,9 +20,8 @@ a {
 
 body {
 	background-color: $white;
-	max-width: 2000px;
 
-	margin: 0 auto;
+	margin: 0;
 	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -48,6 +47,7 @@ body > header {
 		line-height: 61px;
 		font-weight: normal;
 		text-shadow: $soft-shadow;
+		text-align: center;
 
 		&::before {
 			background-image: url(../img/logo.png);
@@ -189,7 +189,8 @@ main {
 	justify-content: space-around;
 
 	section {
-		width: 25rem;
+		margin: 2.5rem;
+		width: calc(50% - 5rem);
 		display: flex;
 		flex-direction: column;
 		margin-top: 2.5rem;
@@ -223,4 +224,56 @@ footer {
 	text-align: center;
 	color: $gray;
 	font-size: 0.75em;
+}
+
+@media screen and (max-width: 960px) {
+	body > header {
+		background-image: url(../img/header_960.jpg);
+	}
+
+	#gamesnav ul {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+	body > header {
+		height: 18rem;
+		align-items: flex-start;
+
+		h1 {
+			font-size: 5rem;
+			margin-top: 4.5rem;
+
+			&::before {
+				display: none;
+			}
+		}
+	}
+
+	#topnav {
+		li.social-media {
+			display: none;
+		}
+	}
+
+	#gamesnav {
+		margin-top: -4rem;
+
+		ul li,
+		ul li.small {
+			height: 7.5rem;
+			width: 15rem;
+		}
+	}
+
+	#aboutus {
+		flex-direction: column;
+
+		section {
+			width: auto;
+		}
+	}
 }
