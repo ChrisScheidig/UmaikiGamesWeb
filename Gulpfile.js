@@ -35,6 +35,11 @@ gulp.task('html', function() {
         .pipe(gulp.dest('./build'));
 });
 
+gulp.task('fonts', function() {
+    return gulp.src('./fonts/**/*')
+        .pipe(gulp.dest('./build/fonts'));
+});
+
 gulp.task('watch-html', function() {
     var watch = require('gulp-watch');
     var batch = require('gulp-batch');
@@ -72,5 +77,13 @@ gulp.task('watch-js', function() {
     }));
 })
 
-gulp.task('default', ['html', 'css', 'js', 'img'])
-gulp.task('watch', ['watch-html', 'watch-css', 'watch-js', 'watch-img'])
+gulp.task('watch-fonts', function() {
+    var watch = require('gulp-watch');
+    var batch = require('gulp-batch');
+    watch('./fonts/**/*', batch(function (events, done) {
+        gulp.start('fonts', done);
+    }));
+})
+
+gulp.task('default', ['html', 'css', 'js', 'img', 'fonts'])
+gulp.task('watch', ['watch-html', 'watch-css', 'watch-js', 'watch-img', 'watch-fonts'])
