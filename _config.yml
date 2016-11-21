@@ -17,3 +17,7 @@ exclude:
   - README.md
   - Gemfile.lock
   - Gemfile
+
+collections:
+  games:
+    output: true

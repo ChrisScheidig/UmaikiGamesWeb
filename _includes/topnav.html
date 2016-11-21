@@ -1,7 +1,15 @@
 <nav id="topnav">
 	<ul>
 		<li><a href="http://umaikigames.tumblr.com/">Blog</a></li>
-		<li><a href="#">Games</a></li>
+		<li>
+			<span>Games</span>
+			<ul>
+				{% assign games = site.games | sort: 'order' %}
+				{% for game in games %}
+				<li><a href="{{ game.url }}">{{ game.name }}</a></li>
+				{% endfor %}
+			</ul>
+		</li>
 		<li class="social-media">
 			<a href="https://twitter.com/umaikigames">
 				<img src="{{ "/img/twitter.svg" | prepend: site.baseurl }}" alt="Twitter">
