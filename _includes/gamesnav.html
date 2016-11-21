@@ -1,7 +1,8 @@
 <nav id="gamesnav">
 	<ul>
-		<li class="zirkonia"><a href="#">Zirkonia</a></li>
-		<li class="buntoki"><a href="#">Buntoki</a></li>
-		<li class="dungeon-sounds small"><a href="#">Dungeon Sounds</a></li>
+		{% assign games = site.games | sort: 'order' %}
+		{% for game in games %}
+		<li><a href="{{ game.url }}"><img src="{{ site.baseurl }}/img/{{ game.basename }}/navlink.png" alt="{{ game.name }}"></a></li>
+		{% endfor %}
 	</ul>
 </nav>
