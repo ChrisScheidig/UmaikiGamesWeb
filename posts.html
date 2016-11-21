@@ -1,0 +1,15 @@
+---
+title: Blog
+layout: default
+---
+
+{% for post in site.posts %}
+<section class="post">
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <aside class="post--metadata">
+  	<date>{{ post.date | date: '%B %d, %Y'}}</date>
+  	<span class="post--author">{{ post.author }}</span>
+  </aside>
+  {{ post.excerpt }}
+</section>
+{% endfor %}

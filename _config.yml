@@ -17,6 +17,7 @@ exclude:
   - README.md
   - Gemfile.lock
   - Gemfile
+excerpt_separator: <!--more-->
 
 collections:
   games:
