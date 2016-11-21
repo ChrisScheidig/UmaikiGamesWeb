@@ -2,13 +2,13 @@
 
 ## Dependencies
 
-This project requires several tools that are built on [Node.js](http://nodejs.org). Once you have Node.js installed, navigate to the project folder and run the following commands to install any other dependencies:
+This project runs on [Jekyll](http://jekyllrb.com/) and requires [Ruby](https://ruby-lang.org) and [Bundler](https://bundler.io/). Once you have Ruby installed, you can install the rest of the dependencies with the following commands:
 
 ```
-npm install -g gulp
-npm install
+gem install bundler
+bundle install
 ```
 
 ## Building
 
-To compile this project, run `gulp`. During development, use `gulp watch` to continuously compile any changes you make.
+To compile this project, run `bundle exec jekyll build`. During development, use `bundle exec jekyll serve` to continuously compile any changes you make and serve it on http://localhost:4000.
