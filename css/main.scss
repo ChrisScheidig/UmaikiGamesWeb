@@ -177,7 +177,11 @@ body > header {
 // Main content
 main {
 	max-width: $max-content-width;
-	margin: 10rem auto 0 auto;
+	margin: 2rem auto 0 auto;
+
+	#gamesnav + & {
+		margin-top: 10rem;
+	}
 }
 
 #openingquote {
