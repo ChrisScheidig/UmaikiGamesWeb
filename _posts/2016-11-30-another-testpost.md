@@ -3,7 +3,7 @@ layout: post
 title: Dein erstes Spiel mit Game Maker Studio
 subtitle: "Case Study: Onna Gokoro (RPG Maker 2000)"
 date: 2016-11-21
-author: csg
+author: Schotti
 ---
 
 # Einführung
