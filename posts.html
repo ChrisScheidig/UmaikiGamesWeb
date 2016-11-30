@@ -5,11 +5,18 @@ layout: default
 
 {% for post in site.posts %}
 <section class="post">
-  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-  <aside class="post--metadata">
-  	<date>{{ post.date | date: '%B %d, %Y'}}</date>
+  <aside><img src="{{ site.url }}/img/ava_{{post.author | downcase}}.png" alt={{post.author}}></aside>
+  <header>
+  	<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  	{% if post.subtitle %}<span class="post--subtitle"><a href="{{ post.url }}">{{ post.subtitle }}</a></span>{% endif %}
   	<span class="post--author">{{ post.author }}</span>
-  </aside>
-  {{ post.excerpt }}
+  	<date class="post--date">{{ post.date | date: '%B %d, %Y'}}</date>
+  </header>
+  <section class="post--content">
+  	{{ post.excerpt }}
+  </section>
+  <footer>
+  	<a class="post--readmore" href="{{ post.url }}">Read more</a>
+  </footer>
 </section>
 {% endfor %}

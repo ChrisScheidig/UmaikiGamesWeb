@@ -8,6 +8,7 @@ $purple: #c03c6f;
 $orange: #f8812f;
 $white: #ffffff;
 $gray: #888888;
+$bluegray: #607d8b;
 
 $max-content-width: 60rem;
 $soft-shadow: 0 0 20px #000;
@@ -182,6 +183,20 @@ main {
 	#gamesnav + & {
 		margin-top: 10rem;
 	}
+
+	h1,
+	h1 a,
+	h1 a:hover,
+	h2,
+	h2 a,
+	h2 a:hover
+	.post--subtitle,
+	.post--subtitle a,
+	.post--subtitle a:hover {
+		color: $bluegray;
+		font-family: "Ubuntu Condensed", "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-weight: normal;
+	}
 }
 
 #openingquote {
@@ -236,8 +251,65 @@ main {
 	}
 }
 
+.post:not(:last-child) {
+	margin-bottom: 2em;
+}
+
+.post header {
+	color: $bluegray;
+	margin-bottom: 1em;
+	line-height: 2rem;
+
+	h1 {
+		font-size: 2em;
+		margin: 0;
+	}
+
+	.post--subtitle {
+		display: block;
+		font-size: 1.33em;
+	}
+}
+
+.post header,
+.post--content, {
+	margin-left: 10rem;
+}
+
+.post--content *:first-child {
+	margin-top: 0;
+}
+
+.post--content *:last-child {
+	margin-bottom: 0;
+}
+
+.post aside {
+	float: left;
+
+	img {
+		width: 8rem;
+		height: 8rem;
+		display: inline-block;
+		border-radius: 4rem;
+	}
+}
+
+.post footer {
+	text-align: right;
+}
+
+.post--author::after {
+	content: ",";
+}
+
+.post--author,
+.post--date {
+	font-size: 0.75em;
+}
+
 // Footer
-footer {
+#footer {
 	margin: 2rem auto;
 	max-width: $max-content-width;
 

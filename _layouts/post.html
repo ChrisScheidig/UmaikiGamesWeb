@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<section class="post">
+  <aside><img src="{{ site.url }}/img/ava_{{page.author | downcase}}.png" alt={{page.author}}></aside>
+  <header>
+  	<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+  	{% if page.subtitle %}<span class="post--subtitle"><a href="{{ page.url }}">{{ page.subtitle }}</a></span>{% endif %}
+  	<span class="post--author">{{ page.author }}</span>
+  	<date class="post--date">{{ page.date | date: '%B %d, %Y'}}</date>
+  </header>
+  <section class="post--content">
+  	{{ page.content }}
+  </section>
+</section>
