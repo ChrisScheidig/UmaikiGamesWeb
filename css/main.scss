@@ -199,12 +199,15 @@ main {
 // About us section
 #aboutus {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
 
 	section {
 		margin: 2.5rem;
 		width: calc(50% - 5rem);
 		display: flex;
+		flex-basis: 20em;
+		flex-grow: 1;
 		flex-direction: column;
 		margin-top: 2.5rem;
 
