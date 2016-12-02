@@ -175,6 +175,50 @@ body > header {
 	}
 }
 
+// Games nav
+#screenshots {
+	$height: 12.5rem;
+	max-width: $max-content-width;
+	margin: $height * -1.5 auto;
+
+	ul {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+
+		padding: 0;
+		margin: 0;
+		list-style: none;
+
+		li {
+			display: inline-block;
+			height: $height;
+			width: $height * 1.77;
+			border: 0.5rem solid $white;
+			box-shadow: $soft-shadow;
+			background-position: center;
+			background-size: cover;
+
+			margin: 0 2rem 2rem 2rem;
+
+			a {
+				display: block;
+				width: 100%;
+				height: 100%;
+
+				color: transparent;
+				font-size: 0;
+			}
+
+			img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+}
+
 // Main content
 main {
 	max-width: $max-content-width;
@@ -183,7 +227,10 @@ main {
 	#gamesnav + & {
 		margin-top: 10rem;
 	}
-
+	#gamecontent {
+		margin-top: 20rem;
+	}
+	
 	h1,
 	h1 a,
 	h1 a:hover,
@@ -286,7 +333,9 @@ main {
 
 .post aside {
 	float: left;
-
+	display: flex;
+	flex-direction: column;
+	
 	img {
 		width: 8rem;
 		height: 8rem;
