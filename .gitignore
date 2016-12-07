@@ -1,3 +1,5 @@
 _site
 .sass-cache
 .jekyll-metadata
+img/buntoki/screenshots/Thumbs.db
+*.db
