@@ -31,5 +31,14 @@ layout: default
   <section class="post--content"> 
   	{{ page.content }}
 
+ {% if page.comments %}
+	{% include disqus.html %}
+{% endif %} 	
+	
   </section>
+  
+  
+
+  
 </section>
+
