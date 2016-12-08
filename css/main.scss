@@ -309,6 +309,10 @@ main {
 	margin-bottom: 2em;
 }
 
+hr {
+	color: $blue;
+}
+
 .post header {
 	color: $bluegray;
 	margin-bottom: 1em;
@@ -327,6 +331,11 @@ main {
 
 .post header,
 .post--content, {
+	margin-left: 10rem;
+	
+}
+.post--comments, {
+	margin-top: 5rem;
 	margin-left: 10rem;
 }
 
