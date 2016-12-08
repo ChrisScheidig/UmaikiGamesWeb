@@ -45,10 +45,11 @@ body > header {
 	justify-content: center;
 
 	h1 {
-		font-family: "Corporate HQ", serif;
+		//font-family: "Corporate HQ", serif;
+		font-family: 'Montserrat', sans-serif;		
 		color: $white;
 		text-transform: uppercase;
-		font-size: 6rem;
+		font-size: 5rem;
 		line-height: 61px;
 		font-weight: normal;
 		text-shadow: $soft-shadow;
@@ -67,6 +68,22 @@ body > header {
 	}
 }
 
+#gamelogo {
+	$height: 12.5rem;
+	margin: $height * -2.5 auto;
+
+	max-width: $max-content-width;
+
+	justify-content: center;	
+
+	img {
+		margin-left: auto;
+		margin-right: auto;	
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+
 // Top navigation
 #topnav {
 	position: absolute;
@@ -74,7 +91,7 @@ body > header {
 	left: 0;
 	right: 0;
 
-	background-color: rgba(0, 0, 0, 0.25);
+	background-color: rgba(0, 0, 0, 0.55);
 
 	ul {
 		color: $white;
@@ -95,7 +112,7 @@ body > header {
 		ul {
 			display: none;
 			position: absolute;
-			background-color: rgba(0, 0, 0, 0.25);
+			background-color: rgba(0, 0, 0, 0.55);
 		}
 
 		li:hover ul {
@@ -177,10 +194,11 @@ body > header {
 
 // Games nav
 #screenshots {
-	$height: 12.5rem;
-	max-width: $max-content-width;
-	margin: $height * -1.5 auto;
+	$height: 8.5rem;	
 	
+	max-width: $max-content-width;
+	margin-top: $height * 3.8;
+	margin-bottom: $height * -2.3;	
 
 	ul {
 		width: 100%;
@@ -194,7 +212,15 @@ body > header {
 
 		li {
 			display: inline-block;
-			height: $height;
+			height: $height;	
+			
+			.shortscreen {
+				height: $height * 1.5;
+			}			
+			.widescreen {
+				width: $height * 1.77;
+			}				
+			
 			border: 0.5rem solid $white;
 			box-shadow: $soft-shadow;
 			background-position: center;
@@ -213,15 +239,10 @@ body > header {
 
 			img {
 				width: 100%;
-				height: 100%;
+				height: 100%;		
 			}
 		};	
-		.shortscreen {
-			width: $height * 1.33;
-		}			
-		.widescreen {
-			width: $height * 1.77;
-		}		
+	
 		
 	}
 }
@@ -306,7 +327,7 @@ main {
 }
 
 .post:not(:last-child) {
-	margin-bottom: 2em;
+	margin-bottom: 4em;
 }
 
 hr {
@@ -361,7 +382,7 @@ hr {
 }
 
 .post footer {
-	text-align: right;
+	text-align: left;
 }
 
 .post--author::after {
@@ -383,7 +404,7 @@ hr {
 	font-size: 0.75em;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 160px) {
 	body > header {
 		background-image: url(../img/header_960.jpg);
 	}

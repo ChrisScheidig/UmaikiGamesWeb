@@ -14,9 +14,10 @@ layout: default
   </header>
   <section class="post--content">
   	{{ post.excerpt }}
+    <footer>
+    	<a class="post--readmore" href="{{ post.url }}">Read more</a>
+    </footer>	
   </section>
-  <footer>
-  	<a class="post--readmore" href="{{ post.url }}">Read more</a>
-  </footer>
+
 </section>
 {% endfor %}
