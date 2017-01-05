@@ -213,13 +213,8 @@ body > header {
 		li {
 			display: inline-block;
 			height: $height;	
-			
-			.shortscreen {
-				height: $height * 1.5;
-			}			
-			.widescreen {
-				width: $height * 1.77;
-			}				
+
+			width: $height * 1.5;			
 			
 			border: 0.5rem solid $white;
 			box-shadow: $soft-shadow;
@@ -242,6 +237,13 @@ body > header {
 				height: 100%;		
 			}
 		};	
+		
+		.shortscreen {
+			width: $height * 1.5;
+		}			
+		.widescreen {
+			width: $height * 1.77;
+		}			
 	
 		
 	}
