@@ -276,6 +276,12 @@ main {
 	}
 }
 
+@media screen and (max-width: 39rem) {
+	main {
+		margin: 2rem 1rem 0 1rem;
+	}
+}
+
 #openingquote {
 	color: $gray;
 	font-style: italic;
@@ -394,6 +400,18 @@ hr {
 .post--author,
 .post--date {
 	font-size: 0.75em;
+}
+
+@media screen and (max-width: 39rem) {
+	.post aside {
+		display: none;
+	}
+
+	.post header,
+	.post--content,
+	.post--comments {
+		margin-left: 0;
+	}
 }
 
 // Footer
