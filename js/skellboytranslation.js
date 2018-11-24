@@ -10,10 +10,10 @@ denn mit den Körperteilen und Waffen deiner Gegner kannst du Skippy aufrüsten!
 In diesem rechtwinkligen, actionbepackten Papp-Abenteuer hilfst du Skippy, dem eckigen Skelett,
 Kastputins endlose Armeen untoter und bösartiger Unholde zu bekämpfen!
 <br><br>
-Skellboy wird mit Unity entwickelt und ist für einen Release im Frühjahr 2018 für Windows,
+Skellboy wird mit Unity entwickelt und ist für einen Release Mitte 2019 für Windows,
 MaxOS und Linux geplant!
 	` },
-	lang_skelltext_release: {type:"innerHTML", text:"Frühjahr 2018"},	
+	lang_skelltext_release: {type:"innerHTML", text:"Mitte 2019"},	
 	"mce-EMAIL": {type:"placeholder", text:"Anmelden für Release Infos!"}	
 };
 
@@ -26,10 +26,10 @@ foe's body parts and weapons!
 Help Skippy, the cubic skeleton, to fight off Squaruman's endless forces of undead and vicious
 foes in this rectangular action packed cardboard adventure!
 <br><br>
-Skellboy is developed using Unity and its release is slated for early 2018 for Windows,
+Skellboy is developed using Unity and its release is slated for mid 2019 for Windows,
 MacOS and Linux!
 	` },
-	lang_skelltext_release: {type:"innerHTML", text:"Early 2018"},
+	lang_skelltext_release: {type:"innerHTML", text:"mid 2019"},
 	"mce-EMAIL": {type:"placeholder", text:"Subscribe for release news!"}		
 };
 
