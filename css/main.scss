@@ -521,6 +521,9 @@ hr {
 	-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
 	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);	
+	width:497px;
+	height:280px;
+	
 }
 
 #skellempty {
@@ -680,9 +683,27 @@ hr {
 	flex-direction: row;
 }	
 
+#skellmediatext {
+	margin-left:30px;
+	float:right;
+	margin-top: -50px;
+	max-width:470px;
+}
+
+#skippypic {
+	width:260px;
+	height:280px;
+}
+
+#skellboyscreenshots {
+	display:flex;
+	padding:5px;
+}
+
 //// media queries
 
-@media screen and (max-width: 950px) {
+//@media screen and (max-width: 920px) {
+@media screen and (max-width: 960px) {
 	#skellHead {
 		.subscribe {
 			margin-top: -60px;
@@ -696,6 +717,26 @@ hr {
 		display: block;
 		margin: auto;
 	}
+	#skellmediatext {
+		float:none;
+		margin-left:0px;
+		margin-top:0px;
+		width:80%;
+		margin:auto;
+		max-width:1000px;
+	}	
+	#skelltwitter {
+		margin-top:120px;
+	}	
+	#skellboyscreenshots {
+		display:block;
+	}	
+	#infobox {
+		margin-top:350px;
+	}	
+	#skellimg {
+		margin-top:50px;
+	}	
 	.skellboyfooter {
 		//margin-top:1100px;	
 	}
@@ -709,21 +750,23 @@ hr {
 	.subscribe {
 		margin:auto;
 		float:none;
-	}		
-}
-@media screen and (max-width: 600px) {
-	.skellboyfooter {
-		//margin-top:800px;	
-	}
-	#infobox {
-		font-size: 2.0rem;		
-	}
-	#gameinfo {
-		width: 80%;	
 	}	
-	#skellimg {
-		width:60%;
-	}		
+	#publishersec {
+		width: 100%;
+	}	
+}
+@media screen and (max-width: 509px) {
+/* start of phone styles */
+	#skippypic {
+		width:130px;
+		height:140px;
+	}	
+	#skellvideoframe {
+		width:347px;
+		height:269px;
+		
+	}	
+	
 }
 
 /////
