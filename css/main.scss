@@ -12,7 +12,7 @@ $bluegray: #607d8b;
 
 $max-content-width: 60rem;
 $soft-shadow: 0 0 20px #000;
-$skellboy-shadow: 0 0 6px #000, 0 0 10px #000;
+$skellboy-shadow: 2px 2px 4px #114364;
 
 // Global stuff
 a {
@@ -91,6 +91,7 @@ body > header {
 	top: 0;
 	left: 0;
 	right: 0;
+	z-index: 9999;	
 
 	background-color: rgba(0, 0, 0, 0.55);
 
@@ -479,6 +480,9 @@ hr {
 
 // skellboy style
 // Header
+
+
+
 #skellHead {
 	background-color: $blue;
 	background-image: url(../img/skellboy/skellback1.jpg);
@@ -487,54 +491,16 @@ hr {
 	background-size: cover;
 	width: 100%;
 	height: 1024px;
-
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	display:block;
 
 	#skellContent {
-		width: 960px;		
-		margin-top: 480px;					
+		max-width: 960px;		
+		display: block;
+		text-align: center;
+		margin: auto;		
+		//margin-top: 780px;		
 	}
 }
-
-@media screen and (max-width: 950px) {
-	#skellHead {
-		#skellContent {	
-			margin-top: 950px;					
-		}
-	}
-}
-@media screen and (max-width: 600px) {
-	#skellHead {
-		#skellContent {	
-			margin-top: 780px;					
-		}
-	}
-}
-
-.skellboyfooter {
-	max-width: $max-content-width;
-
-	text-align: center;
-	color: $gray;
-	font-size: 0.75em;	
-	margin:auto;
-	margin-top:600px;
-	margin-bottom:50px;
-}
-@media screen and (max-width: 950px) {
-	.skellboyfooter {
-		margin-top:1100px;	
-	}
-}
-
-@media screen and (max-width: 600px) {
-	.skellboyfooter {
-		margin-top:800px;	
-	}
-}
-
 .subscribe {
   //we may not need this
   //margin: 80px auto;
@@ -546,19 +512,225 @@ hr {
     width:347px;
 }
 
-@media screen and (max-width: 950px) {
-	.subscribe {
-		margin:auto;
-		float:none;
+#skellvideo {
+	text-align: center;
+	margin-top:-79px;
+}
+
+#skellvideoframe {
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);	
+}
+
+#skellempty {
+	height:50px;
+}
+
+#skelltitle {
+}
+
+#pic {
+	background-image: url('../img/skellboy/logo.png');
+	width: 650px;
+	height: 442px;
+	border-style: none;
+	display: inline-block;
+	margin-left:-50px;
+}
+
+.skellboyfooter {
+	max-width: $max-content-width;
+
+	text-align: center;
+	color: $gray;
+	font-size: 0.75em;	
+	margin:auto;
+	margin-top:200px;
+	margin-bottom:50px;
+}
+
+#infobox {
+	font-family: 'Montserrat', sans-serif;		
+	color: $white;
+	text-transform: uppercase;
+	font-size: 2.8rem;
+	line-height: 61px;
+	font-weight: bold;
+	text-shadow: $skellboy-shadow;
+	margin-top:300px;
+	text-align: center;	
+	text-color:#114364;
+
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), $blue, rgba(0, 0, 0, 0));
+	margin-top:75px;
+	margin-bottom:75px;
+}
+
+#publishersec {
+	width: 500px;
+	margin:auto;
+	margin-top:50px;
+}
+
+#skellkitsec {
+	width:300px;
+}
+
+#gameinfo {
+	margin-top: 50px;
+	left:auto;
+	right:50%;
+	//margin: 2rem 2rem 2rem 2rem;
+    margin: auto;
+    width: 50%;	
+	margin: 59px;	
+	 line-height: 1.5;
+	
+	b, strong{
+		color: $blue;
 	}	
 }
 
-.subscribe-sec {
-	
+.skelltextheader {
+	font-family: 'Montserrat', sans-serif;		
+	color: $white;
+	text-transform: uppercase;
+	font-size: 2.8rem;
+	line-height: 61px;
+	font-weight: bold;
+	text-shadow: $skellboy-shadow;
+	text-color:#114364;
+
 }
 
 
+#languageSelection {
+	margin:10px;
+	margin-left:0px;
+	text-align:left;
+}
 
+#skelltext_release_info {
+	margin-top:50px;
+	font-size:23pt;
+	color:#3B7695;
+	text-shadow: 1px 2px 3px rgba(33,107,164,0.84);	
+
+}
+
+.langimg {
+	cursor: pointer;
+	width:40px;
+}
+
+#skellimg {
+	height: auto;	
+	width:60%;
+	border: 0.5rem solid $white;
+	box-shadow: $soft-shadow;
+	background-position: center;
+	background-size: cover;
+	margin: auto;
+
+	a {
+		width: 100%;
+		height: 100%;
+
+		color: transparent;
+		font-size: 0;
+	}
+
+	img {
+		width: 100%;
+		height: 100%;		
+	}
+}	
+
+#skellmedia {
+	margin:auto;
+	b, strong{
+		color: $blue;
+	}	
+}
+
+#skelltwitter {
+	margin-top:100px;
+}
+
+#skellkit {
+	border: 5px solid #1C6EA4;
+	border-radius: 0px 29px 0px 23px;
+	background-color: #1C6EA4;
+	width:150px;
+	color:white;
+	font-family: 'Montserrat', sans-serif;	
+	font-size:20pt;
+	margin: auto;
+	margin-top:10px;	
+}
+
+#skelldetails {
+	display: flex;
+	flex-direction: row;
+}	
+
+//// media queries
+
+@media screen and (max-width: 950px) {
+	#skellHead {
+		.subscribe {
+			margin-top: -60px;
+			margin-bottom: 120px;
+		}		
+	}
+	#pic {	
+		background-image: url('../img/skellboy/logo_s.png');	
+		width: 300px;	
+		height: 211px;		
+		display: block;
+		margin: auto;
+	}
+	.skellboyfooter {
+		//margin-top:1100px;	
+	}
+	#skelldetails {
+		display: block;
+	}	
+	#gameinfo {
+		width: 60%;
+		margin: auto;		
+	}	
+	.subscribe {
+		margin:auto;
+		float:none;
+	}		
+}
+@media screen and (max-width: 600px) {
+	.skellboyfooter {
+		//margin-top:800px;	
+	}
+	#infobox {
+		font-size: 2.0rem;		
+	}
+	#gameinfo {
+		width: 80%;	
+	}	
+	#skellimg {
+		width:60%;
+	}		
+}
+
+/////
+
+
+.subscribe-sec {
+}
 	.subscribe-form {
 
 	  position: relative;
@@ -577,8 +749,6 @@ hr {
 	  margin: 70px 30px -20px;	
 	}	  
 }
-
-
 
 .subscribe-input {
 
@@ -624,142 +794,7 @@ hr {
 
 }
 
-#pic {
-	background-image: url('../img/skellboy/logo.png');
-	width: 600px;
-	height: 422px;
-	border-style: none;
-	display: inline-block;
-
-}
-
-@media screen and (max-width: 950px) {
-	#pic {	
-		background-image: url('../img/skellboy/logo_s.png');	
-		width: 300px;	
-		height: 211px;		
-		display: block;
-		margin: auto;
-	}
-}
-
-#infobox {
-	//font-family: "Corporate HQ", serif;
-	font-family: 'Montserrat', sans-serif;		
-	color: $white;
-	text-transform: uppercase;
-	font-size: 2.8rem;
-	line-height: 61px;
-	font-weight: bold;
-	text-shadow: $skellboy-shadow;
-	text-align: center;	
-	margin-top: 90px;	
-}
-
-@media screen and (max-width: 600px) {
-	#infobox {
-		font-size: 2.0rem;		
-	}	
-}
-
-
-@media screen and (max-width: 950px) {
-	#skelldetails {
-		margin-top: 670px;	
-	}
-}
-
-@media screen and (min-width: 950px) {
-	#skelldetails {
-		display:flex;
-		margin-top: 370px;	
-	}
-}
-@media screen and (max-width: 600px) {
-	#skelldetails {
-		margin-top: 520px;	
-	}	
-}
-
-#skelldetails2 {
-	display:flex;
-
-}
-
-#gameinfo {
-	margin-top: 50px;
-	left:auto;
-	right:50%;
-	//margin: 2rem 2rem 2rem 2rem;
-    margin: auto;
-    width: 50%;	
-	margin: 59px;
-}
-
-@media screen and (max-width: 950px) {
-	#gameinfo {
-		width: 60%;
-		margin: auto;		
-	}	
-}
-
-@media screen and (max-width: 600px) {
-	#gameinfo {
-    width: 80%;	
-	}	
-}
-
-#languageSelection {
-	margin:10px;
-	margin-left:0px;
-	text-align:left;
-}
-
-.langimg {
-	cursor: pointer;
-	width:40px;
-}
-
-#skellimg {
-	
-			height: auto;	
-			width:60%;
-
-			
-			border: 0.5rem solid $white;
-			box-shadow: $soft-shadow;
-			background-position: center;
-			background-size: cover;
-
-			margin: auto;
-
-			a {
-				//display: block;
-				width: 100%;
-				height: 100%;
-
-				color: transparent;
-				font-size: 0;
-			}
-
-			img {
-				width: 100%;
-				height: 100%;		
-			}
-}	
 
 .displayedscreen {
 
-}
-
-@media screen and (max-width: 6950px) {
-#skellimg {
-		margin-top:60px;
-	}	
-}
-
-@media screen and (max-width: 600px) {
-#skellimg {
-				width:70%;
-	}	
 }
