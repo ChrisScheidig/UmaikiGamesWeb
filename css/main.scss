@@ -301,41 +301,41 @@ main {
 }
 
 // About us section
+
 #aboutus {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-
-	section {
-		margin: 2.5rem;
-		width: calc(50% - 5rem);
-		display: flex;
-		flex-basis: 20em;
-		flex-grow: 1;
-		flex-direction: column;
-		margin-top: 2.5rem;
-
-		img {
-			width: 10rem;
-			height: 10rem;
-			display: inline-block;
-			border-radius: 5rem;
-			align-self: center;
-
-			order: -1;
-		}
-
-		h2 {
-			align-self: center;
-			margin: 0.5rem 0 0.5rem 0;
-		}
-
-		p {
-			text-align: justify;
-		}
-	}
-}
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  #aboutus section {
+    margin: 2.5rem;
+    width: calc(50% - 5rem);
+    display: flex;
+    flex-basis: 20em;
+    flex-grow: 1;
+    flex-direction: column;
+    margin-top: 2.5rem; }
+    #aboutus section img {
+      width: 10rem;
+      height: 10rem;
+      display: inline-block;
+      border-radius: 5rem;
+      align-self: center;
+      order: -1; }
+    #aboutus section .aboutTwitter div {
+      width: 200px;
+      text-align: center;
+      margin: auto; }
+    #aboutus section .aboutTwitter p {
+      display: flex;
+      align-items: center;
+      text-align: left; }
+    #aboutus section .aboutTwitter img {
+      height: 30px; }
+    #aboutus section h2 {
+      align-self: center;
+      margin: 0.5rem 0 0.5rem 0; }
+    #aboutus section p {
+      text-align: justify; }
 .post:not(:last-child) {
 	margin-bottom: 4em;
 }
