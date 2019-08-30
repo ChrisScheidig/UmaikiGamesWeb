@@ -10,7 +10,7 @@ denn mit den <strong>Körperteilen und Waffen deiner Gegner kannst du Skippy auf
 In diesem rechtwinkligen, actionbepackten Papp-Abenteuer hilfst du <strong>Skippy</strong>, dem eckigen Skelett,
 <strong>Kastputins</strong> endlose Armeen untoter und bösartiger Unholde zu bekämpfen!
 	` },
-	lang_skelltext_release: {type:"innerHTML", text:"Mitte 2019"},	
+	lang_skelltext_release: {type:"innerHTML", text:"Herbst 2019"},	
 	lang_skelltext_and: {type:"innerHTML", text:"und"},		
 	lang_skelltext_pub: {type:"innerHTML", text:"Switch Version veröffentlicht von"},	
 	lang_skelltext_follow: {type:"innerHTML", text:"Folge uns!"},	
@@ -29,7 +29,7 @@ var lang_en = {
 					Help <strong>Skippy</strong>, the cubic skeleton, to fight off <strong>Squaruman's</strong> endless forces of undead and vicious
 					foes in this rectangular action packed cardboard adventure!
 	` },
-	lang_skelltext_release: {type:"innerHTML", text:"mid 2019"},
+	lang_skelltext_release: {type:"innerHTML", text:"Fall 2019"},
 	lang_skelltext_and: {type:"innerHTML", text:"and"},	
 	lang_skelltext_pub: {type:"innerHTML", text:"Switch version published by"},
 	lang_skelltext_follow: {type:"innerHTML", text:"Follow us!"},	
