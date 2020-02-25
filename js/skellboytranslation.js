@@ -11,8 +11,8 @@ In diesem rechtwinkligen, actionbepackten Papp-Abenteuer hilfst du <strong>Skipp
 <strong>Kastputins</strong> endlose Armeen untoter und bösartiger Unholde zu bekämpfen!
 	` },
 	lang_skelltext_release: {type:"innerHTML", text:"30. Januar"},	
-	lang_skelltext_platforms_1: {type:"innerHTML", text:"für Nintendo Switch"},		
-	lang_skelltext_platforms_2: {type:"innerHTML", text:"Später 2020 für PC, Mac and Linux"},					
+	lang_skelltext_platforms_1: {type:"innerHTML", text:"Jetzt für Nintendo Switch"},		
+	lang_skelltext_platforms_2: {type:"innerHTML", text:"später 2020 für PC, Mac and Linux"},					
 	lang_skelltext_and: {type:"innerHTML", text:"und"},		
 	lang_skelltext_pub: {type:"innerHTML", text:"Switch Version veröffentlicht von"},	
 	lang_skelltext_follow: {type:"innerHTML", text:"Folge uns!"},	
@@ -31,9 +31,9 @@ var lang_en = {
 					Help <strong>Skippy</strong>, the cubic skeleton, to fight off <strong>Squaruman's</strong> endless forces of undead and vicious
 					foes in this rectangular action packed cardboard adventure!
 	` },
-	lang_skelltext_release: {type:"innerHTML", text:"January 30th"},
-	lang_skelltext_platforms_1: {type:"innerHTML", text:"For Nintendo Switch"},		
-	lang_skelltext_platforms_2: {type:"innerHTML", text:"Later 2020 for PC, Mac and Linux"},	
+	lang_skelltext_release: {type:"innerHTML", text:"Now on the Nintendo e-shop!"},
+	lang_skelltext_platforms_1: {type:"innerHTML", text:"Out now for Nintendo Switch"},		
+	lang_skelltext_platforms_2: {type:"innerHTML", text:"later 2020 for PC, Mac and Linux"},	
 	lang_skelltext_and: {type:"innerHTML", text:"and"},	
 	lang_skelltext_pub: {type:"innerHTML", text:"Switch version published by"},
 	lang_skelltext_follow: {type:"innerHTML", text:"Follow us!"},	
@@ -65,6 +65,7 @@ var loadLanguage = function(langName) {
         if(!langObj.hasOwnProperty(prop)) continue;
 
 		let ob = document.getElementById(prop);
+		if (ob != null)
 		ob[langObj[prop].type] = langObj[prop].text;
 
     }	

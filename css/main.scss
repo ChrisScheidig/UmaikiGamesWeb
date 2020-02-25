@@ -69,6 +69,39 @@ body > header {
 	}
 }
 
+.fullBackground {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50vw);
+  background-repeat: repeat;
+}
+
+.ribbon {
+
+  -webkit-transform: rotate(-45deg); 
+     -moz-transform: rotate(-45deg); 
+      -ms-transform: rotate(-45deg); 
+       -o-transform: rotate(-45deg); 
+          transform: rotate(-45deg); 
+    border: 30px solid transparent;
+    border-top: 30px solid green;
+    position: absolute;
+    bottom: 10px;
+    right: -60px;
+    padding: 0 10px;
+    width: 120px;
+    color: white;
+	
+}
+.ribbon .txt {
+    position: absolute;
+    top: -26px;
+    left: 30px;
+	font-size:20px;
+	font-style:bold;
+}
+
 #gamelogo {
 	$height: 12.5rem;
 	margin: $height * -2.5 auto;
@@ -187,6 +220,7 @@ line-height: 1.25;
 			box-shadow: $soft-shadow;
 			background-position: center;
 			background-size: cover;
+			position:relative;
 
 			margin: 0 2rem 2rem 2rem;
 
@@ -573,6 +607,18 @@ hr {
 	margin-bottom:50px;
 }
 
+#outNowBox {
+	font-family: 'Montserrat', sans-serif;		
+	color: $white;
+	text-transform: uppercase;
+	font-size: 2.8rem;
+	line-height: 61px;
+	font-weight: bold;
+	text-shadow: $skellboy-shadow;
+	text-align: center;	
+	text-color:red;
+}
+
 #infobox {
 	font-family: 'Montserrat', sans-serif;		
 	color: $white;
@@ -640,7 +686,8 @@ hr {
 }
 
 #skelltext_release_info {
-	margin-top:50px;
+	margin-top:350px;
+	margin-bottom:80px;
 	font-size:23pt;
 	color:#3B7695;
 	text-shadow: 1px 2px 3px rgba(33,107,164,0.84);	
@@ -710,6 +757,17 @@ hr {
 	max-width:470px;
 }
 
+#skellmediatextVinyl {
+	float:left;
+	max-width:470px;
+	
+	Margin-top:50px;
+	width:70%;
+	margin-left:0px;
+	font-size:15pt;
+	text-align:left;
+}
+
 #skippypic {
 	width:260px;
 	height:280px;
@@ -718,6 +776,14 @@ hr {
 #skellboyscreenshots {
 	display:flex;
 	padding:5px;
+}
+
+#skellboyVinylImg {
+	width:70%;
+	margin-top:40px;
+	margin-bottom:30px;
+	margin-left:-250px;
+	margin-right:-500px
 }
 
 //// media queries
@@ -730,6 +796,29 @@ hr {
 			margin-bottom: 120px;
 		}		
 	}
+	
+	#skellboyVinylImg {
+		width:70%;
+		margin-top:40px;
+		margin-bottom:20px;
+		margin-left:0px;
+		margin-right:0px;
+	}
+
+	#skellmediatextVinyl {
+		float:none;
+		margin-left:auto;
+		margin-top:0px;
+		margin:auto;
+		max-width:1000px;
+		
+		Margin-top:50px;
+		width:70%;
+		margin-left:auto;
+		font-size:15pt;
+		text-align:left;
+	}	
+	
 	#pic {	
 		background-image: url('../img/skellboy/logo_s.png');	
 		width: 300px;	

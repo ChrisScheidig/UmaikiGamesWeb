@@ -2,7 +2,18 @@
 	<ul>
 		{% assign games = site.games | sort: 'order' %}
 		{% for game in games %}
-		<li><a href="{{ game.url }}"><img src="{{ site.baseurl }}/img/{{ game.basename }}/navlink.png" alt="{{ game.name }}"></a></li>
+		<li><a href="{{ game.url }}"><img src="{{ site.baseurl }}/img/{{ game.basename }}/navlink.png" alt="{{ game.name }}"></a>
+		
+		
+		{% if game.ribbon != null %}
+		<div class="ribbon">
+			<div class="txt">
+				{{ game.ribbon }}
+			</div>
+		</div>	
+		{% endif %}
+		
+		</li>
 		{% endfor %}
 	</ul>
 </nav>
